@@ -8,7 +8,7 @@ const App = () => {
   const [editDate, setEditDate] = useState(''); // New state for storing the edited task date
 
   const handleInputChange = (event) => {
-    setNewTodo(event.target.value);
+   setNewTodo(event.target.value);
   };
 
   const handleFormSubmit = (event) => {
